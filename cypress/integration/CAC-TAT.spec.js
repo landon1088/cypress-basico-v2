@@ -141,6 +141,6 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       .invoke('removeAttr', 'target')
       .click()
     cy.url()
-      .should('be.equal', 'http://localhost:39477/src/privacy.html')
+      .should('be.equal', './src/privacy.html')
   })
 })
